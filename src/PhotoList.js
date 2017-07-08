@@ -12,7 +12,8 @@ const PhotoList = (props)=>{
       <h1>Photo List</h1>
       <ul>
         {props.photos.map(photo=>(
-          <li onClick={()=>this.props.history.push('/photo')} key={photo.id}><img src={photo.thumbnailUrl} /></li>
+          <li onClick={()=>
+            props.history.push('/photo')} key={photo.id}><img src={photo.thumbnailUrl} /></li>
         ))}
       </ul>
     </div>

@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { fetchPhotos } from './api/photo'
 import PhotoList from './PhotoList'
-// import { withRouter } from 'react-router-dom';
 
 class PhotoListContainer extends Component {
   constructor(props){
@@ -36,4 +35,3 @@ class PhotoListContainer extends Component {
 }
 
 export default PhotoListContainer
-// export default withRouter(PhotoListContainer)
